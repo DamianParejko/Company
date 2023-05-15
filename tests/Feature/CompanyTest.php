@@ -10,7 +10,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class CompanyTest extends TestCase
 {
-    use WithFaker;
+    use RefreshDatabase, WithFaker;
 
     public function test_all_company()
     {
