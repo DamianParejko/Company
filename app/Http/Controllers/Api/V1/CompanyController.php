@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
-use App\Traits\Validates\ValidationCompanyTrait;
+use App\Traits\Validations\ValidationCompanyTrait;
 
 class CompanyController extends Controller
 {
