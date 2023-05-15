@@ -28,3 +28,12 @@ Route::controller(CompanyController::class)->group(function (){
         Route::delete('/{id}', 'delete');
     });
 });
+
+Route::controller(WorkerController::class)->group(function (){
+    Route::prefix('/workers')->group(function () {
+        Route::get('/{id}', 'get');
+        Route::post('/', 'create');
+        Route::put('/{id}', 'update');
+        Route::delete('/{id}', 'delete');
+    });
+});
