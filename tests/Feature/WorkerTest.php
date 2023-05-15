@@ -36,7 +36,7 @@ class WorkerTest extends TestCase
        
         $response = $this->json('PUT', '/api/workers/' . $worker->id, $worker->attributesToArray());
 
-        $response->assertStatus(201);
+        $response->assertStatus(200);
     }
 
     public function test_delete_company()
