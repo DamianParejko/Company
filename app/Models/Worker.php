@@ -9,7 +9,9 @@ class Worker extends Model
 {
     use HasFactory;
 
-    public function comapny(){
+    protected $guarded = [];
+
+    public function company(){
         return $this->belongsTo(Comapny::class);
     }
 }
