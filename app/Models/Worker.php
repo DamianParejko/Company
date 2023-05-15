@@ -12,6 +12,6 @@ class Worker extends Model
     protected $guarded = [];
 
     public function company(){
-        return $this->belongsTo(Comapny::class);
+        return $this->belongsTo(Company::class);
     }
 }
