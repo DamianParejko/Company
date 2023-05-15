@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits\Validates;
+namespace App\Traits\Validations;
 
 trait ValidationWorkerTrait 
 {
