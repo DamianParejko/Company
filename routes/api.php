@@ -27,7 +27,6 @@ Route::controller(CompanyController::class)->group(function (){
         Route::put('/{id}', 'update');
         Route::delete('/{id}', 'delete');
     });
-<<<<<<< HEAD
 });
 
 Route::controller(WorkerController::class)->group(function (){
@@ -37,6 +36,4 @@ Route::controller(WorkerController::class)->group(function (){
         Route::put('/{id}', 'update');
         Route::delete('/{id}', 'delete');
     });
-=======
->>>>>>> fdd2a2bd4109dbb5cdf2f995be735049ea136d1d
 });
