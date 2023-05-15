@@ -16,9 +16,6 @@ class Controller extends BaseController
             case 201:
                 $message = 'Created successfully';
                 break;
-            case 204:
-                $data = null;
-                break;
             case 404:
                 $data = null;
                 $message = 'Not Found';
